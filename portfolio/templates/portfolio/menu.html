@@ -1,0 +1,31 @@
+{% extends 'portfolio/main.html' %}
+{% block content %}
+<div class="album py-5 bg-light">
+
+    <div class="container">
+      <div class="row">
+        {% for project in projects %}
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+          <img src="{{ project.image.url }}" height="240" width="350">
+              <div class="card-body">
+                <p class="card-text">{{ project.title }}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  {% if project.url %}
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{project.url}}">Download</a></button>
+                  {% endif %}
+                </div>
+                <small class="text-muted">Implement Published Date later</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</div>
+
+
+{% endblock %}
