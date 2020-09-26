@@ -8,7 +8,9 @@ from .models import Project
 
 def home(request):
     projects = Project.objects.all()
-    return render(request, 'portfolio/menu.html', {'projects': projects})
+    count = Project.objects.count() # count is being used to determine weather it should display "My Projects or not"
+    return render(request, 'portfolio/menu.html', {'projects': projects, 'count': count})
 
 
-
+def projects(request):
+    return render(request, 'portfolio/projects.html')
