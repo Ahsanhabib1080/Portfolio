@@ -11,16 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f82508-d04a-4189-a711-17cd995ca2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portfolio/images/Ahsan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/portfolio/images/download.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +32,15 @@
   </component>
   <component name="JupyterTrust" id="4425fd55-9be0-41dc-8e6d-83b0c407f865" />
   <component name="ProjectId" id="1hy2Auc1hwUPA35fOKHKuEkjeuI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -137,6 +134,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600969019870">
@@ -147,22 +148,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600969016975" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1601104661014">
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom" timestamp="1601131368762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601104661014" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1601104661014">
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601131368762" />
+    <state width="1877" height="209" key="GridCell.Tab.0.center" timestamp="1601131368762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601104661014" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1601104661014">
+    <state width="1877" height="209" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601131368762" />
+    <state width="1877" height="209" key="GridCell.Tab.0.left" timestamp="1601131368762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601104661014" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1601104661014">
+    <state width="1877" height="209" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601131368762" />
+    <state width="1877" height="209" key="GridCell.Tab.0.right" timestamp="1601131368762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601104661014" />
+    <state width="1877" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601131368762" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601104562941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,6 +174,6 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601023479591" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/personal_portfolio_project$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601104134499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/personal_portfolio_project$manage.coverage" NAME="manage Coverage Results" MODIFIED="1601131240493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

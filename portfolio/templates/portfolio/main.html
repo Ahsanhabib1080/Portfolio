@@ -63,7 +63,13 @@
 <main role="main">
   <section class="jumbotron text-center">
         <!-- Below is the standard way to load images. specially if you're reusing the Template -->
-    {% load static %}
+    <style>
+        img {
+        max-width: 100%;
+            height: auto;
+        }
+</style>
+      {% load static %}
     <img src="{% static 'portfolio/ahsan.jpg' %}" class="img-circle" alt="Cinque Terre" width="250" height="240">
 
     <div class="container">
