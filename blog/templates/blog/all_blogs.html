@@ -1,8 +1,6 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 
-<title>BLOGS</title>
-<h1>Ahsan Habib's BLOG</h1>
 <h2>Ahsan has written {{ blog_count }} blog{{blogs.count|pluralize}}</h2>
 
 {% for blog in blogs %}
