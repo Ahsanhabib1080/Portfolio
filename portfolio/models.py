@@ -10,9 +10,10 @@ class Project(models.Model):
     image = models.ImageField(upload_to='portfolio/images/')
     url = models.URLField(blank=True)
 
+    # BElOW LINE OF CODE RETURNS THE TITLE OF THIS OBJECT TO DJANGO ADMIN.
     def __str__(self):
         return self.title
 
-    def delete(self, *args, **kwargs):
+    def delete(self, using=None, keep_parents=False):
         self.image.delete()
-        super().delete(*args, **kwargs)
+        super().delete()
