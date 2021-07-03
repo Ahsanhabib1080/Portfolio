@@ -25,6 +25,9 @@ SECRET_KEY = 'c!gu7$*+*(pbeb*3xra(bb(h_&--40jea$b=+y!!0!j69ap@c@'
 DEBUG = True
 
 ALLOWED_HOSTS = ['192.168.31.17']
+# Type Your Ip address in here and run manage.py yourip:yourport number to run this project on
+# Your local wifi Network.
+# You can leave this empty so that django can use the default localhost.
 
 # Application definition
 
